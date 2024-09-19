@@ -11,3 +11,21 @@ console.log(id===id2)
 //Non primitive(reference types)- heap memory is used for non primitive
 
 //Arrays,Objects,Functions
+
+let a="initial"
+let b=a;
+b="change in value"
+
+console.log(a)
+console.log(b)
+
+let user={
+    email:"xyz@gmail.com",
+    mobile:"8533049958"
+}
+let copy=user
+copy.email="hitesh@gmail.com"
+//copy mai changes krne par array me bhi changes ho jayege
+console.log(user)
+console.log(copy)
+
