@@ -25,7 +25,7 @@ let user={
 }
 let copy=user
 copy.email="hitesh@gmail.com"
-//copy mai changes krne par array me bhi changes ho jayege
+//copy mai changes krne par user me bhi changes ho jayege
 console.log(user)
 console.log(copy)
 
