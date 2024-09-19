@@ -2,7 +2,7 @@ const name="Akshansh"
 const repocount=40
 
 console.log(`hello my name is ${name} and my repocount is ${repocount}`)
-//this is called string interpolation
+//this is called string interpolation.
 
 const hobbies="playing cricket"
 console.log(hobbies[0])
