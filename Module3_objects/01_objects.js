@@ -16,3 +16,8 @@ const jsuser={name:"akshu",
   //  console.log(jsuser.full name) //error cannot access it using dot
     console.log(jsuser["full name"])
     console.log(jsuser[mysym])
+
+    jsuser.greeting=function(){
+      console.log(`hello my name is, ${this.name}`)
+    }
+    console.log(jsuser.greeting())
