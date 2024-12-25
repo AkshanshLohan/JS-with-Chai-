@@ -14,4 +14,4 @@ const newstring="        xyz       "
 console.log(newstring.trim())//trims the starting and end spaces of a string
 
 const url="https://akshansh.com%20chaudhary"
-console.log(url.replace('%20','-'))
+console.log(url.replace('%20','-')) //https://akshansh.com-chaudhary
