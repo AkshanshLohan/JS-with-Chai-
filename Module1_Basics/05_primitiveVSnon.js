@@ -6,6 +6,7 @@
 const id= Symbol("23")
 const id2=Symbol("23")
 console.log(id===id2)
+//output false
 
 
 //Non primitive(reference types)- heap memory is used for non primitive
