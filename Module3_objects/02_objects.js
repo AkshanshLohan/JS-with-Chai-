@@ -16,8 +16,8 @@ const obj1={1:"a",2:"b"}
 const obj2={3:"c",4:"d"}
 const obj3=Object.assign( {} ,  obj1,  obj2)//{}-target,  obj1,obj2,.... -Source
 //combines all source values and assigns them to the target
-//but use spread mostly
 
+//but use spread mostly
 const obj4={...obj1, ...obj2}
 console.log(obj4)
 
