@@ -15,4 +15,4 @@ console.log(both)// ["apple","banana","bananakepapa","potato","cucumber","ladyfi
 const array1=["krishlay","sumit","nitin"]
 const array2=[500,1000,2000]
 const newarr=[...array1,...array2]// every element of array one by one
-console.log(newarr)
+console.log(newarr) //["krishlay", "sumit", "nitin", 500, 1000, 2000]
