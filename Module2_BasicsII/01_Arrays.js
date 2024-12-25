@@ -4,15 +4,15 @@ const myArray=[0,1,"haha",true]
 // NOTE- Arrays in js are resizable
 
 //Array methods"
-myArray.push("sher")//sher will be added to th last index
-console.log(myArray)
+myArray.push("sher")//sher will be added to the last index
+console.log(myArray) // [0,1,"haha",true,"sher"]
 
 myArray.unshift(9)//used for insertion from front
-console.log(myArray)
+console.log(myArray) //[9,0,1,"haha",true]
 
 const newarr=myArray.join()//join isko string me convert krdega
 
-console.log(myArray)
+console.log(myArray) //[9,0,1,"haha",true]
 console.log(typeof newarr)//string
 
 const a=myArray.slice(1,3)// 1 se leke 2 index tak
